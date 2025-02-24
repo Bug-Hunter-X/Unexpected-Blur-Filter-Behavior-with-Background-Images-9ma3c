@@ -1,0 +1,2 @@
+# CSS Blur Filter Issue
+This repository demonstrates a subtle bug related to the CSS `filter: blur()` property when applied to an element containing a `background-image`. The expected behavior is that the filter would blur the entire element's content (image and foreground), however, only the background image is blurred leaving the text and other elements sharp. This unexpected behavior can make it hard to predict how CSS filters interact with elements with complex content.
